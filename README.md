@@ -1,4 +1,4 @@
-# Advanced responsive landing page.
+Advanced responsive landing page.
 
 
 # Getting Started with Create React App
