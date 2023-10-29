@@ -1,0 +1,28 @@
+.mainHeader {
+  text-align: center;
+  background-color: #333;
+  padding: 0 20px 30px 20px;
+}
+
+.mainHeader img {
+  height: 100px;
+  width: 180px;
+}
+
+.mainHeader h1 {
+  font-size: 68px;
+  color: white;
+}
+
+.mainHeader h3 {
+  font-size: 25px;
+  color: white;
+}
+
+@media screen and (min-width:900px) {
+    .mainHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+}

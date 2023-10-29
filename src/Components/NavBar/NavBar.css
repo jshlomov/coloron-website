@@ -1,0 +1,38 @@
+/* .navList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.navList ul {
+  background-color: #333;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navList ul li {
+  font-size: 20px;
+}
+
+.navList ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.navList ul li a:hover {
+  background-color: #555;
+}
+
+@media screen and (min-width: 768px) {
+  .navList ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+}

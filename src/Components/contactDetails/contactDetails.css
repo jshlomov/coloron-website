@@ -1,0 +1,44 @@
+.contactWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.contactWrapper .contactWrapperCards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  max-width: 1400px;
+}
+
+.contactCard {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex: 1 1 400px;
+  margin: 9px;
+  min-height: 70px;
+  background-color: #eee;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.contactCard a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 10px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.contactCard img {
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 768) {
+  .contactCard {
+    flex: 1 0 500px;
+  }
+}
