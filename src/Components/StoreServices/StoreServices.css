@@ -24,7 +24,7 @@
   position: relative;
   vertical-align: top;
   margin: 25px;
-  font-family: "helvetica", san-serif;
+  /* font-family: "helvetica", san-serif; */
   min-height: 25vh;
   background: #454545;
   border: 1px solid #252727;

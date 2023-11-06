@@ -1,6 +1,6 @@
 .ImageCompContainer {
     height: 300px;
-    min-width: 350px;
+    min-width: 320px;
     position: relative;
     margin: 20px;
     flex-grow: 1;

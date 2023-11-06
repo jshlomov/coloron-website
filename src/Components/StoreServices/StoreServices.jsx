@@ -7,7 +7,7 @@ function StoreServices() {
     <div id="storeServices" className="storeServices">
       <Header header="שרותי החנות" />
       <div className="tilesFirstWrap">
-        <ul class="tilesWrap">
+        <ul className="tilesWrap">
           <li>
             <h2>01</h2>
             <h3>פיתוח תמונות</h3>

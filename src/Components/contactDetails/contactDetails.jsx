@@ -8,7 +8,7 @@ import Header from "../Header/Header";
 
 function ContactDetails(props) {
   const mapLink = "https://maps.app.goo.gl/Ns4Q99ZuUy4PKBKNA";
-  const phoneLink = "";
+  const phoneLink = "tel:x6183619@gmail.com";
   const whatsappLink = "https://wa.me/+972543076578";
   const mailLink = "mailto:x6183619@gmail.com";
 
@@ -22,12 +22,12 @@ function ContactDetails(props) {
           link={mailLink}
         />
         <ContactDetailsCard
-          title="ווטסאפ: 0543076578"
+          title="ווטסאפ: 054-307-6578"
           imge={phonePic}
           link={whatsappLink}
         />
         <ContactDetailsCard
-          title="טלפון (חיים): 054-5338050"
+          title="טלפון (חיים): 054-533-8050"
           imge={telPic}
           link={phoneLink}
         />
@@ -42,9 +42,9 @@ function ContactDetails(props) {
         width="80%"
         height="450"
         style={{ border: "0" }}
-        allowfullscreen=""
+        allowFullScreen
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
   );
