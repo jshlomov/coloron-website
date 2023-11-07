@@ -14,32 +14,71 @@
   padding: 25px;
 }
 
-.about .aboutDetails h1{
-  font-size: 45px;
+.about .aboutDetails h1 {
+  font-size: 35px;
+  position: relative;
+  top: -30px;
+  animation: type 2s;
 }
 
 .about .aboutDetails h3 {
-  font-size: 35px;
+  font-size: 28px;
+  position: relative;
+  top: -30px;
+  animation: typeDelay 3s;
+}
+
+@keyframes type {
+  0% {top:30px; opacity: 0;}
+  100% {top:-30px; opacity: 1;}
+}
+
+@keyframes typeDelay {
+  0% {top:30px; opacity: 0;}
+  50% {top:30px; opacity: 0;}
+  100% {top:-30px; opacity: 1;}
 }
 
 @media screen and (min-width: 768px) {
   .about {
-  position: relative;
+    position: relative;
   }
 
   .about .aboutDetails {
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 10%;
   }
 
-  .about .aboutDetails h1{
+  .about .aboutDetails h1 {
     font-size: 60px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 
   .about .aboutDetails h3 {
     font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .about {
+    position: relative;
+  }
+
+  .about .aboutDetails {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+  }
+
+  .about .aboutDetails h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .about .aboutDetails h3 {
+    font-size: 32px;
   }
 }
