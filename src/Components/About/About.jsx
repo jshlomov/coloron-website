@@ -1,10 +1,8 @@
 import React from "react";
 import "./About.css";
-import Header from "../Header/Header";
 import bgImage from "../../images/bgImage5.jpg";
 
 function About() {
-  const winSize = window.screen.height -280;
 
   return (
     <div
