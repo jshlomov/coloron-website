@@ -9,3 +9,21 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.archor {
+  position: relative;
+  top: -134px;
+  visibility: hidden;
+}
+
+@media screen and (min-width:768px) and (max-width:900px){
+  .archor {
+    top: -190px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .archor {
+    top: -140px;
+  }
+}

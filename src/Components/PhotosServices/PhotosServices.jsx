@@ -9,8 +9,6 @@ import sefer from "../../images/PhotosImages/sefer.jpg";
 import visa from "../../images/PhotosImages/passportVisa.jpg";
 import passport from "../../images/PhotosImages/pasport.jpg";
 
-
-
 function PhotosServices() {
   const photographyServices = [
     { img: barMitzvaImg, title: "בר/בת מצווה" },
@@ -21,7 +19,8 @@ function PhotosServices() {
     { img: passport, title: "פספורט" },
   ];
   return (
-    <div id="photosServices" className="photosServices">
+    <div className="photosServices">
+      <div id="photosServices" className="archor"></div>
       <Header header="שרותי צילום" />
       <div className="ImageCompsContainer">
         {photographyServices.map((x, index) => {

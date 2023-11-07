@@ -4,7 +4,8 @@ import "./StoreServices.css";
 
 function StoreServices() {
   return (
-    <div id="storeServices" className="storeServices">
+    <div  className="storeServices">
+      <div id="storeServices" className="archor"></div>
       <Header header="שרותי החנות" />
       <div className="tilesFirstWrap">
         <ul className="tilesWrap">
