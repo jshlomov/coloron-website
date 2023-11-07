@@ -8,12 +8,13 @@ import Header from "../Header/Header";
 
 function ContactDetails(props) {
   const mapLink = "https://maps.app.goo.gl/Ns4Q99ZuUy4PKBKNA";
-  const phoneLink = "tel:x6183619@gmail.com";
+  const phoneLink = "tel:+972545338050";
   const whatsappLink = "https://wa.me/+972543076578";
   const mailLink = "mailto:x6183619@gmail.com";
 
   return (
-    <div id="contactDetails" className="contactWrapper">
+    <div  className="contactWrapper">
+      <div id="contactDetails" className="archor"></div>
       <Header header="יצירת קשר" />
       <div className="contactWrapperCards">
         <ContactDetailsCard

@@ -13,7 +13,7 @@ function MainHeader() {
     >
       <img src={logo} alt="Store logo" />
       <h1>פוטו קולורון</h1>
-      <a href="tel:+97245338050">054-533-8050</a>
+      <a href="tel:+972545338050">054-533-8050</a>
       {/* <h3>054-533-8050</h3> */}
     </div>
   );
