@@ -25,14 +25,39 @@
   width: 100%;
 }
 
-@media screen and (max-width:768px) {
-  .App {
-    margin-top: 350px;
-  }
+.FullScreenNavbar {
+  display: inline;
+}
+
+.MobileNavbar {
+  display: none;
+}
+
+.Hamburger {
+  display: none;
 }
 
 @media screen and (min-width:768px) and (max-width:900px) {
   .App {
     margin-top: 220px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .App {
+    margin-top: 175px;
+  }
+
+  .hederAndNavContainer {
+    
+  }
+
+  .Hamburger {
+    display: inline;
+    /* display: block;
+    width: 100%; */
+    position: absolute;
+    top: 135px;
+    right: 5px;
   }
 }

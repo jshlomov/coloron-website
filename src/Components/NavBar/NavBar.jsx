@@ -1,21 +1,29 @@
 import React from "react";
 import "./NavBar.css";
 
-function NavBar() {
+function NavBar(props) {
   return (
     <div className="navList">
-      <ul >
+      <ul>
         <li>
-          <a href="#about">אודות</a>
+          <a href="#about"  onClick={props.close}>
+            אודות
+          </a>
         </li>
         <li>
-          <a href="#storeServices">שירותי חנות</a>
+          <a href="#storeServices" onClick={props.close} >
+            שירותי חנות
+          </a>
         </li>
         <li>
-          <a href="#photosServices">שירותי צילום</a>
+          <a href="#photosServices" onClick={props.close}>
+            שירותי צילום
+          </a>
         </li>
         <li>
-          <a href="#contactDetails">ליצירת קשר</a>
+          <a href="#contactDetails" onClick={props.close}>
+            ליצירת קשר
+          </a>
         </li>
       </ul>
     </div>

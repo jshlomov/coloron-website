@@ -25,6 +25,10 @@
   background-color: #555;
 }
 
+.fullScreenNavbar {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .navList ul {
     display: flex;
@@ -34,5 +38,18 @@
 
   .navList ul li {
     flex-grow: 1;
+  }
+
+  .navList .archor {
+    position: relative;
+    top: -100px;
+  }
+
+  .mobileNavbar {
+    display: none;
+  }
+
+  .fullScreenNavbar {
+    display: inline;
   }
 }
