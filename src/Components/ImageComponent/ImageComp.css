@@ -11,6 +11,8 @@
     height: 100%;
     background-position: center;
     background-size: cover;
+    /* filter: blur(3px);    blur!!!!!!!!!!!!!!
+    -webkit-filter: blur(3px); */
   }
   
   .ImageCompContainer .ImageCompTextContainer {
@@ -28,6 +30,11 @@
     font-size: 52px;
     color: white;
     filter: drop-shadow(0.05em 0.05em black);
+  }
+
+  .ImageCompContainer:hover {
+    transform: rotateZ(-3deg) scale(1.1) ;
+    transition: all 0.7s;
   }
 
   
